@@ -1,0 +1,23 @@
+@media (max-width:1280px) {
+    .header__img img {
+        top: 179px;
+        right: 0;
+        max-width: 660px;
+        height: auto;
+    }
+    .playday__img img{
+       left: -300px;
+    }
+    .header__img::after{
+        width: 800px;
+        height:500px;
+        top: 100px;
+        right: 20px;
+    }
+    .brands__list{
+        column-gap: 40px;
+    }
+    .footer__menu{
+        width: 180px;
+    }
+}
