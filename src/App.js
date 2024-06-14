@@ -11,6 +11,7 @@ import Reagister from "./components/register/Reagister";
 function App() {
   return (
     <div className="App">
+      <div className="window"></div>
       <Header />
       <Brands />
       <Arrivals />
